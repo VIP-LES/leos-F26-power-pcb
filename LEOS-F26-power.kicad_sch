@@ -2087,7 +2087,7 @@
 			(uuid "8c0985e3-7f28-4375-bd2f-5d95e88f0969")
 		)
 		(instances
-			(project "LEOS-stack-template"
+			(project "LEOS-F26-power"
 				(path "/3703ddf2-8141-438d-86a8-1eaec9672d0d"
 					(reference "A1")
 					(unit 1)
@@ -2165,7 +2165,7 @@
 			(uuid "f654926a-420d-4b6d-a95d-34ccbdded4c7")
 		)
 		(instances
-			(project "LEOS-stack-template"
+			(project "LEOS-F26-power"
 				(path "/3703ddf2-8141-438d-86a8-1eaec9672d0d"
 					(reference "#PWR02")
 					(unit 1)
@@ -2243,7 +2243,7 @@
 			(uuid "f1490e40-6671-45c3-9e15-00a98fb902a4")
 		)
 		(instances
-			(project "LEOS-stack-template"
+			(project "LEOS-F26-power"
 				(path "/3703ddf2-8141-438d-86a8-1eaec9672d0d"
 					(reference "#PWR01")
 					(unit 1)
@@ -2321,7 +2321,7 @@
 			(uuid "42d36707-f949-4b3a-acf0-4cce4c734fae")
 		)
 		(instances
-			(project "LEOS-stack-template"
+			(project "LEOS-F26-power"
 				(path "/3703ddf2-8141-438d-86a8-1eaec9672d0d"
 					(reference "#PWR03")
 					(unit 1)
@@ -2388,7 +2388,7 @@
 			)
 		)
 		(instances
-			(project "LEOS-stack-template"
+			(project "LEOS-F26-power"
 				(path "/3703ddf2-8141-438d-86a8-1eaec9672d0d"
 					(page "3")
 				)
@@ -2504,9 +2504,55 @@
 			)
 		)
 		(instances
-			(project "LEOS-stack-template"
+			(project "LEOS-F26-power"
 				(path "/3703ddf2-8141-438d-86a8-1eaec9672d0d"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 45.72 132.08)
+		(size 24.13 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "b5d2246f-3ec9-4e9e-bcc7-c5b834d21e07")
+		(property "Sheetname" "Buck Converter"
+			(at 45.72 131.3684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Buck Converter.kicad_sch"
+			(at 45.72 145.3646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "LEOS-F26-power"
+				(path "/3703ddf2-8141-438d-86a8-1eaec9672d0d"
+					(page "4")
 				)
 			)
 		)

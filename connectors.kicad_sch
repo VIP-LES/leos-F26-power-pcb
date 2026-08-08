@@ -1494,7 +1494,7 @@
 			(uuid "53077e25-a339-427c-b9c3-e4d33ee6db60")
 		)
 		(instances
-			(project "LEOS-stack-template"
+			(project "LEOS-F26-power"
 				(path "/3703ddf2-8141-438d-86a8-1eaec9672d0d/341d819d-3d1a-4f8b-94f1-4c6aaa16d806"
 					(reference "C6")
 					(unit 1)
@@ -1634,7 +1634,7 @@
 			(uuid "354a1e24-22ba-438f-a067-f92b81402c95")
 		)
 		(instances
-			(project "LEOS-stack-template"
+			(project "LEOS-F26-power"
 				(path "/3703ddf2-8141-438d-86a8-1eaec9672d0d/341d819d-3d1a-4f8b-94f1-4c6aaa16d806"
 					(reference "J1")
 					(unit 1)
@@ -1712,7 +1712,7 @@
 			(uuid "438a4a79-783b-481e-a03e-2fcfb22c59e9")
 		)
 		(instances
-			(project "LEOS-stack-template"
+			(project "LEOS-F26-power"
 				(path "/3703ddf2-8141-438d-86a8-1eaec9672d0d/341d819d-3d1a-4f8b-94f1-4c6aaa16d806"
 					(reference "#PWR018")
 					(unit 1)
@@ -1790,7 +1790,7 @@
 			(uuid "0912537e-3319-4505-b91c-c2130276a9ca")
 		)
 		(instances
-			(project "LEOS-stack-template"
+			(project "LEOS-F26-power"
 				(path "/3703ddf2-8141-438d-86a8-1eaec9672d0d/341d819d-3d1a-4f8b-94f1-4c6aaa16d806"
 					(reference "#PWR017")
 					(unit 1)
@@ -1868,7 +1868,7 @@
 			(uuid "4dc7ef57-548b-43b5-a7da-4fe47495b7e1")
 		)
 		(instances
-			(project "LEOS-stack-template"
+			(project "LEOS-F26-power"
 				(path "/3703ddf2-8141-438d-86a8-1eaec9672d0d/341d819d-3d1a-4f8b-94f1-4c6aaa16d806"
 					(reference "#FLG01")
 					(unit 1)
@@ -2004,7 +2004,7 @@
 			(uuid "52d69517-c018-4730-ac90-98e49bcb445a")
 		)
 		(instances
-			(project "LEOS-stack-template"
+			(project "LEOS-F26-power"
 				(path "/3703ddf2-8141-438d-86a8-1eaec9672d0d/341d819d-3d1a-4f8b-94f1-4c6aaa16d806"
 					(reference "C7")
 					(unit 1)
@@ -2129,7 +2129,7 @@
 			(uuid "8bd5ace7-dd5a-4c14-9dbd-f6bae69745ec")
 		)
 		(instances
-			(project "LEOS-stack-template"
+			(project "LEOS-F26-power"
 				(path "/3703ddf2-8141-438d-86a8-1eaec9672d0d/341d819d-3d1a-4f8b-94f1-4c6aaa16d806"
 					(reference "R1")
 					(unit 1)
@@ -2269,7 +2269,7 @@
 			(uuid "46dbae06-d51e-40bd-8c41-2f256d066567")
 		)
 		(instances
-			(project "LEOS-stack-template"
+			(project "LEOS-F26-power"
 				(path "/3703ddf2-8141-438d-86a8-1eaec9672d0d/341d819d-3d1a-4f8b-94f1-4c6aaa16d806"
 					(reference "J2")
 					(unit 1)
@@ -2392,7 +2392,7 @@
 			(uuid "5d2442a3-a6a6-4681-8f59-907edbcce9d7")
 		)
 		(instances
-			(project "LEOS-stack-template"
+			(project "LEOS-F26-power"
 				(path "/3703ddf2-8141-438d-86a8-1eaec9672d0d/341d819d-3d1a-4f8b-94f1-4c6aaa16d806"
 					(reference "TP4")
 					(unit 1)
@@ -2470,7 +2470,7 @@
 			(uuid "0dbd8a50-a87c-49f9-90ed-625f5a70c467")
 		)
 		(instances
-			(project "LEOS-stack-template"
+			(project "LEOS-F26-power"
 				(path "/3703ddf2-8141-438d-86a8-1eaec9672d0d/341d819d-3d1a-4f8b-94f1-4c6aaa16d806"
 					(reference "#PWR019")
 					(unit 1)
@@ -2593,7 +2593,7 @@
 			(uuid "5616c9c3-abe1-46d4-aa69-7138d9cae841")
 		)
 		(instances
-			(project "LEOS-stack-template"
+			(project "LEOS-F26-power"
 				(path "/3703ddf2-8141-438d-86a8-1eaec9672d0d/341d819d-3d1a-4f8b-94f1-4c6aaa16d806"
 					(reference "TP3")
 					(unit 1)
@@ -2671,7 +2671,7 @@
 			(uuid "38334497-9361-42c6-91be-d2c998d6034e")
 		)
 		(instances
-			(project "LEOS-stack-template"
+			(project "LEOS-F26-power"
 				(path "/3703ddf2-8141-438d-86a8-1eaec9672d0d/341d819d-3d1a-4f8b-94f1-4c6aaa16d806"
 					(reference "#PWR020")
 					(unit 1)

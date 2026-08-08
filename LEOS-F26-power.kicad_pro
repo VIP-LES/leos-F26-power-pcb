@@ -513,7 +513,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "LEOS-stack-template.kicad_pro",
+    "filename": "LEOS-F26-power.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -756,18 +756,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "LEOS-stack-template.kicad_sch",
-        "name": "LEOS-stack-template",
+        "filename": "LEOS-F26-power.kicad_sch",
+        "name": "LEOS-F26-power",
         "uuid": "3703ddf2-8141-438d-86a8-1eaec9672d0d"
       }
     ],
-    "used_designators": "U1-2,TP1-4,R1,J1-2,#FLG1,Y1-2,#PWR1-22,A1,C1-7,C10",
+    "used_designators": "U1-3,TP1-4,J1-2,R1,#FLG1,Y1-2,A1,#PWR1-22,C1-7,C10",
     "variants": []
   },
   "sheets": [
     [
       "3703ddf2-8141-438d-86a8-1eaec9672d0d",
-      "LEOS-stack-template"
+      "LEOS-F26-power"
     ],
     [
       "5dc8edec-1b34-44a9-a38e-40874919c30b",
@@ -776,6 +776,10 @@
     [
       "341d819d-3d1a-4f8b-94f1-4c6aaa16d806",
       "Connectors"
+    ],
+    [
+      "b5d2246f-3ec9-4e9e-bcc7-c5b834d21e07",
+      "Buck Converter"
     ]
   ],
   "text_variables": {},
