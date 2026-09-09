@@ -1480,18 +1480,6 @@
 		(uuid "37726217-d42a-4510-a9ac-354a76660e35")
 	)
 	(rectangle
-		(start 178.816 61.595)
-		(end 279.146 150.495)
-		(stroke
-			(width 0.25)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "b8cbbb1b-f183-4bac-a8b7-3027a9d80ce7")
-	)
-	(rectangle
 		(start 128.27 87.63)
 		(end 147.32 92.71)
 		(stroke
@@ -1502,19 +1490,6 @@
 			(type none)
 		)
 		(uuid "ccee0550-8171-4e02-ad8f-0e41a0381aa7")
-	)
-	(text "This is the schematic for a circuit board module used in the LEOS Stack.\nOther than the standard CAN networking chips and Raspberry Pi Pico,\nthis is your blank slate for creating any application designs."
-		(exclude_from_sim no)
-		(at 179.959 66.802 0)
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.3)
-				(bold yes)
-			)
-			(justify left)
-		)
-		(uuid "355d3ce0-00c9-4fa0-9425-22a0887947a6")
 	)
 	(text "SPI1"
 		(exclude_from_sim no)
@@ -1550,16 +1525,6 @@
 			(justify left)
 		)
 		(uuid "45278158-7081-4a0c-b47c-c61b333e0086")
-	)
-	(text "Have Fun! Delete this box once you start designing."
-		(exclude_from_sim no)
-		(at 207.645 148.59 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "47bc0f6d-30a2-4ccb-aaf3-a06c39164b99")
 	)
 	(text "Since CANbus is very high \nthroughput, avoid using SPI0 for\nany other devices."
 		(exclude_from_sim no)
@@ -1604,17 +1569,6 @@
 			(justify left)
 		)
 		(uuid "a1aafb31-e649-49c2-8ff8-6c542107781b")
-	)
-	(text "When authoring new schematics, remember these key points:\n1. Ensure your page information is up to date.\n	- keep the revision number, page title, and supporting text up\n	to date with the design. This document should be self-explanatory as\n	often as possible.\n	- Delete the help text in the root sheet.\n2. Commit your work into GitHub \n	- Make incremental changes to the schematic and layout,\n	but ensure that any commit is not a fragmented mess of changes.\n	- Use descriptive commit messages that convey what was updated.\n	Longer descriptions of changes or issues can be included as a 2nd/3rd\n	line in Kicad/Git commits. Don't just say \"updated layout\"...\n	- Avoid committing generated files, junk files, or gerbers. If a file\n	can be generated from the existing schematic and kicad sources, it does\n	not need to be version controlled.\n3. Ensure each symbol and footprint matches what you have selected for your\n	Bill of Materials (table looking button in top bar).\n	- Review, Review, Review!\n	Small discrepancies, pin requirements, or sourcing troubles can set your team\n	back weeks. Always ensure your planned design is able to be ordered and\n	follows the given recommendations and application implementations.\n	- Follow this project's structure of documenting the Manufacturer,\n	MPN (Manufacturer's Part Number) and Digikey columns for each part.\n	These items are conveniently listed next to the image of a part on\n	Digikey.com.\n4. Use realistic part sizes. \n	- Dont use a 0201 package when you could use 1206. While our design\n	does use surface mount soldering, its best to use as large of a size\n	as you are comfortable soldering. SOIC, 0805, 1206, SOT, and TSSOP\n	are pretty easy to reflow and hand-place.\n	"
-		(exclude_from_sim no)
-		(at 180.467 109.982 0)
-		(effects
-			(font
-				(size 1.5 1.5)
-			)
-			(justify left)
-		)
-		(uuid "aaac9310-9ada-47e6-aed7-64c4c927bf0c")
 	)
 	(text "UART0"
 		(exclude_from_sim no)
@@ -2396,6 +2350,98 @@
 		)
 	)
 	(sheet
+		(at 190.5 93.98)
+		(size 26.67 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "470843d4-556c-4e78-8e6c-25b65a02e4d0")
+		(property "Sheetname" "E-Fuse"
+			(at 190.5 93.2684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "E-Fuse.kicad_sch"
+			(at 190.5 109.8046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "LEOS-F26-power"
+				(path "/3703ddf2-8141-438d-86a8-1eaec9672d0d"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 240.03 78.74)
+		(size 29.21 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "528ff9b0-a904-4a78-86c6-11cbf84face6")
+		(property "Sheetname" "5V Power"
+			(at 240.03 78.0284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "5V Power.kicad_sch"
+			(at 240.03 95.8346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "LEOS-F26-power"
+				(path "/3703ddf2-8141-438d-86a8-1eaec9672d0d"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 80.01 92.71)
 		(size 15.24 12.7)
 		(exclude_from_sim no)
@@ -2512,8 +2558,8 @@
 		)
 	)
 	(sheet
-		(at 45.72 132.08)
-		(size 24.13 12.7)
+		(at 240.03 109.22)
+		(size 29.21 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2526,9 +2572,9 @@
 		(fill
 			(color 0 0 0 0)
 		)
-		(uuid "b5d2246f-3ec9-4e9e-bcc7-c5b834d21e07")
-		(property "Sheetname" "Buck Converter"
-			(at 45.72 131.3684 0)
+		(uuid "64f3d4b9-893f-4f0f-938c-0da76e19fc55")
+		(property "Sheetname" "9-12V Power"
+			(at 240.03 108.5084 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2538,8 +2584,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Buck Converter.kicad_sch"
-			(at 45.72 145.3646 0)
+		(property "Sheetfile" "9-12V Power.kicad_sch"
+			(at 240.03 125.0446 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2552,7 +2598,7 @@
 		(instances
 			(project "LEOS-F26-power"
 				(path "/3703ddf2-8141-438d-86a8-1eaec9672d0d"
-					(page "4")
+					(page "6")
 				)
 			)
 		)
