@@ -319,9 +319,21 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Input Voltage to 9-12V Buck Converter"
+		(exclude_from_sim no)
+		(at 137.668 53.086 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "21b88cdd-887c-4622-8258-c4384bc6a19a")
+	)
 	(symbol
 		(lib_id "2026-07-22_15-59-22:TPS54540BDDA")
-		(at 123.19 97.79 0)
+		(at 115.57 88.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -332,7 +344,7 @@
 		(fields_autoplaced yes)
 		(uuid "6ecf8411-9c71-4438-8aef-98c0d3fd9e6a")
 		(property "Reference" "U5"
-			(at 146.05 87.63 0)
+			(at 138.43 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -342,7 +354,7 @@
 			)
 		)
 		(property "Value" "TPS54540BDDA"
-			(at 146.05 90.17 0)
+			(at 138.43 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -352,7 +364,7 @@
 			)
 		)
 		(property "Footprint" "SO-POWERPAD8_DDA_TEX"
-			(at 123.19 97.79 0)
+			(at 115.57 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -364,7 +376,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/gpn/tps54540b"
-			(at 123.19 97.79 0)
+			(at 115.57 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -376,7 +388,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 123.19 97.79 0)
+			(at 115.57 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
