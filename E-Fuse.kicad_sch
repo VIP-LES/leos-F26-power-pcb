@@ -1163,25 +1163,27 @@
 		)
 		(uuid "f0c4f28d-41fd-45eb-b444-431818c880a5")
 	)
-	(label "Vin"
-		(at 107.95 88.9 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1164b61b-03f8-431f-b826-c419c349e391")
-	)
-	(label "Vout"
+	(hierarchical_label "Vout"
+		(shape output)
 		(at 177.8 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "890f87a0-34bd-4bd8-b931-4de35ea49472")
+		(uuid "782de020-acb9-4ec7-8f6f-5dab165e127e")
+	)
+	(hierarchical_label "Vin"
+		(shape input)
+		(at 107.95 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a73062a5-6eeb-43f5-ba09-d9ef78641382")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -1252,6 +1254,12 @@
 			(uuid "9495d5db-6c7f-4b3d-9368-e84683569524")
 		)
 		(instances
+			(project "LEOS-F26-power"
+				(path "/3703ddf2-8141-438d-86a8-1eaec9672d0d/470843d4-556c-4e78-8e6c-25b65a02e4d0"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
 			(project "E-Fuse"
 				(path "/ee8d38d9-ee55-40e0-9cc5-c338ddd20b52"
 					(reference "#PWR02")
@@ -1329,6 +1337,12 @@
 			(uuid "2bfbcf66-1d76-423e-a6c0-8a7b677def2d")
 		)
 		(instances
+			(project "LEOS-F26-power"
+				(path "/3703ddf2-8141-438d-86a8-1eaec9672d0d/470843d4-556c-4e78-8e6c-25b65a02e4d0"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
 			(project "E-Fuse"
 				(path "/ee8d38d9-ee55-40e0-9cc5-c338ddd20b52"
 					(reference "#PWR01")
@@ -1551,6 +1565,12 @@
 			(uuid "861b6aa7-c948-4577-a8a6-62b80589f781")
 		)
 		(instances
+			(project "LEOS-F26-power"
+				(path "/3703ddf2-8141-438d-86a8-1eaec9672d0d/470843d4-556c-4e78-8e6c-25b65a02e4d0"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
 			(project "E-Fuse"
 				(path "/ee8d38d9-ee55-40e0-9cc5-c338ddd20b52"
 					(reference "#PWR04")
@@ -1633,6 +1653,12 @@
 			(uuid "d5e407a4-c713-442c-99b2-c2326cfe1971")
 		)
 		(instances
+			(project "LEOS-F26-power"
+				(path "/3703ddf2-8141-438d-86a8-1eaec9672d0d/470843d4-556c-4e78-8e6c-25b65a02e4d0"
+					(reference "R_ILIM")
+					(unit 1)
+				)
+			)
 			(project "E-Fuse"
 				(path "/ee8d38d9-ee55-40e0-9cc5-c338ddd20b52"
 					(reference "R_ILIM")
@@ -1710,6 +1736,12 @@
 			(uuid "a7cdd266-6171-4f40-8622-fd7c39c868b0")
 		)
 		(instances
+			(project "LEOS-F26-power"
+				(path "/3703ddf2-8141-438d-86a8-1eaec9672d0d/470843d4-556c-4e78-8e6c-25b65a02e4d0"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
 			(project "E-Fuse"
 				(path "/ee8d38d9-ee55-40e0-9cc5-c338ddd20b52"
 					(reference "#PWR03")
@@ -1792,6 +1824,12 @@
 			(uuid "4e633511-5af0-4672-ac53-3f53dd78bdb5")
 		)
 		(instances
+			(project "LEOS-F26-power"
+				(path "/3703ddf2-8141-438d-86a8-1eaec9672d0d/470843d4-556c-4e78-8e6c-25b65a02e4d0"
+					(reference "Cout")
+					(unit 1)
+				)
+			)
 			(project "E-Fuse"
 				(path "/ee8d38d9-ee55-40e0-9cc5-c338ddd20b52"
 					(reference "Cout")
@@ -1873,6 +1911,12 @@
 			(uuid "443b55a7-bb6b-452d-adf7-44ece0ceae8f")
 		)
 		(instances
+			(project "LEOS-F26-power"
+				(path "/3703ddf2-8141-438d-86a8-1eaec9672d0d/470843d4-556c-4e78-8e6c-25b65a02e4d0"
+					(reference "Cin")
+					(unit 1)
+				)
+			)
 			(project "E-Fuse"
 				(path "/ee8d38d9-ee55-40e0-9cc5-c338ddd20b52"
 					(reference "Cin")
@@ -1951,6 +1995,12 @@
 			(uuid "0c07d619-2afb-4f61-98c1-fc59b06804bd")
 		)
 		(instances
+			(project "LEOS-F26-power"
+				(path "/3703ddf2-8141-438d-86a8-1eaec9672d0d/470843d4-556c-4e78-8e6c-25b65a02e4d0"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
 			(project "E-Fuse"
 				(path "/ee8d38d9-ee55-40e0-9cc5-c338ddd20b52"
 					(reference "#PWR05")
@@ -1964,5 +2014,4 @@
 			(page "1")
 		)
 	)
-	(embedded_fonts no)
 )
