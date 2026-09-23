@@ -1810,6 +1810,39 @@
 		)
 		(uuid "f9382656-9821-4f58-860f-287dd1ceacbb")
 	)
+	(hierarchical_label "Vout"
+		(shape output)
+		(at 217.17 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0c66b342-1a1d-46c9-bffe-4eeee2dd099c")
+	)
+	(hierarchical_label "VIN"
+		(shape input)
+		(at 240.03 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "55e97f8b-62cc-4eaa-a539-f1b401d064dc")
+	)
+	(hierarchical_label "Vin"
+		(shape input)
+		(at 190.5 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "948ca30a-b0d9-4876-871b-4b5715cd90ae")
+	)
 	(symbol
 		(lib_id "MCU_Module:RaspberryPi_Pico")
 		(at 147.32 104.14 0)
@@ -2573,7 +2606,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "64f3d4b9-893f-4f0f-938c-0da76e19fc55")
-		(property "Sheetname" "9-12V Power"
+		(property "Sheetname" "1-18V Power"
 			(at 240.03 108.5084 0)
 			(show_name no)
 			(do_not_autoplace no)
