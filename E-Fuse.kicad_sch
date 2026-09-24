@@ -958,6 +958,18 @@
 		(uuid "9a8377ec-5e91-44a4-88c4-b76b74249355")
 	)
 	(junction
+		(at 163.83 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "039b218f-7d5a-41a4-beea-466da1e24538")
+	)
+	(junction
+		(at 163.83 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "14599b36-48b1-4e5e-8eb4-aad0d5e1d2a2")
+	)
+	(junction
 		(at 116.84 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -968,6 +980,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6953ec08-3a87-4654-a3ad-a772bcbd9f5b")
+	)
+	(junction
+		(at 116.84 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6fb5433b-0042-4db9-b0f2-83cde50717e5")
 	)
 	(junction
 		(at 116.84 96.52)
@@ -990,28 +1008,12 @@
 		(uuid "32c49002-39c1-419e-8898-a9334285c5c0")
 	)
 	(no_connect
-		(at 123.19 83.82)
-		(uuid "3d7474b4-057d-434b-b163-b7ed29d9e130")
-	)
-	(no_connect
 		(at 163.83 106.68)
 		(uuid "58427d7e-8da6-464e-acdd-a6241d92291f")
 	)
 	(no_connect
-		(at 163.83 88.9)
-		(uuid "618d7423-ff0b-4863-9e4a-584cc1a97db3")
-	)
-	(no_connect
 		(at 163.83 96.52)
 		(uuid "62d06b35-e29b-4e79-8f06-2b4ebe9d8d00")
-	)
-	(no_connect
-		(at 163.83 86.36)
-		(uuid "79afa60c-e8dc-498b-ba69-b7360a0279ff")
-	)
-	(no_connect
-		(at 123.19 86.36)
-		(uuid "81d31039-610d-4ca0-a4a4-e01a193f82ed")
 	)
 	(no_connect
 		(at 163.83 101.6)
@@ -1024,6 +1026,16 @@
 	(no_connect
 		(at 123.19 101.6)
 		(uuid "e0818928-f937-49e4-8170-5f6ef1d04e60")
+	)
+	(wire
+		(pts
+			(xy 116.84 86.36) (xy 116.84 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "067377d4-daeb-4bdb-9aa5-1a5b1e548333")
 	)
 	(wire
 		(pts
@@ -1054,6 +1066,16 @@
 			(type default)
 		)
 		(uuid "592562a3-cba9-40f3-8344-260ebe2ced5e")
+	)
+	(wire
+		(pts
+			(xy 116.84 83.82) (xy 116.84 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60556785-f0fd-4c25-a95a-0d5fa6a5860f")
 	)
 	(wire
 		(pts
@@ -1127,6 +1149,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 88.9) (xy 163.83 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8198110-9d52-4fbf-b870-389242214099")
+	)
+	(wire
+		(pts
 			(xy 170.18 83.82) (xy 170.18 85.09)
 		)
 		(stroke
@@ -1137,6 +1169,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 86.36) (xy 163.83 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5f1a482-3777-40dc-a0b6-7a117e74167c")
+	)
+	(wire
+		(pts
 			(xy 116.84 96.52) (xy 116.84 88.9)
 		)
 		(stroke
@@ -1144,6 +1186,16 @@
 			(type default)
 		)
 		(uuid "d5fa77b7-edb5-4703-a235-9b4944128e4e")
+	)
+	(wire
+		(pts
+			(xy 116.84 86.36) (xy 123.19 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da8a8223-ef84-4d6c-8fbd-2226c3fc4430")
 	)
 	(wire
 		(pts
@@ -1174,6 +1226,16 @@
 			(type default)
 		)
 		(uuid "f0c4f28d-41fd-45eb-b444-431818c880a5")
+	)
+	(wire
+		(pts
+			(xy 116.84 83.82) (xy 123.19 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa80b55f-9ebc-4e00-bd2f-8246288f32af")
 	)
 	(hierarchical_label "Vout"
 		(shape output)
@@ -1614,7 +1676,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3.0 kΩ"
+		(property "Value" "3.0k"
 			(at 172.72 115.5699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1785,7 +1847,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10 µF"
+		(property "Value" "10u"
 			(at 176.53 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1819,6 +1881,39 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 172.72 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "1276-6698-1-ND"
+			(at 172.72 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL21X106KAYNNNE"
+			(at 172.72 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 172.72 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -1872,8 +1967,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1 µF"
-			(at 103.378 93.98 0)
+		(property "Value" "0.1u"
+			(at 105.918 93.726 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1906,6 +2001,50 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 113.03 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "1276-1003-1-ND"
+			(at 113.03 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1711"
+			(at 113.03 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL21B104KBCNNNC"
+			(at 113.03 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 113.03 92.71 0)
 			(hide yes)
 			(show_name no)
