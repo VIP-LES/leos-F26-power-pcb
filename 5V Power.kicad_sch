@@ -2222,7 +2222,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 63.1952 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -2303,7 +2303,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 47.9552 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -2385,7 +2385,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 178.7652 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -2465,7 +2465,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SO-POWERPAD8_DDA_TEX"
+		(property "Footprint" ""
 			(at 99.06 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -2570,7 +2570,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 197.612 82.55 90)
 			(hide yes)
 			(show_name no)
@@ -2651,7 +2651,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 80.772 95.25 90)
 			(hide yes)
 			(show_name no)
@@ -2811,7 +2811,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 90.932 101.6 90)
 			(hide yes)
 			(show_name no)
@@ -2891,7 +2891,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 171.45 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -2972,7 +2972,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 190.1952 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -3131,7 +3131,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 55.5752 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -3290,7 +3290,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 70.8152 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -3372,7 +3372,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 80.772 107.95 90)
 			(hide yes)
 			(show_name no)
@@ -3454,7 +3454,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 168.6052 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -3536,7 +3536,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 153.162 102.87 90)
 			(hide yes)
 			(show_name no)
@@ -3618,7 +3618,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 197.612 113.03 90)
 			(hide yes)
 			(show_name no)
@@ -3778,7 +3778,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
 			(at 162.56 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -3860,7 +3860,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 155.9052 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -4018,7 +4018,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 116.84 73.3552 0)
 			(hide yes)
 			(show_name no)

@@ -2921,7 +2921,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04832f16-b65d-4671-9e78-59368a391040")
-		(property "Reference" "R4"
+		(property "Reference" "R-3"
 			(at 58.42 111.7599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2932,7 +2932,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "133k"
 			(at 58.42 114.2999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2943,7 +2943,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 54.102 113.03 90)
 			(hide yes)
 			(show_name no)
@@ -2985,7 +2985,7 @@
 		(instances
 			(project "LEOS-F26-power"
 				(path "/3703ddf2-8141-438d-86a8-1eaec9672d0d/64f3d4b9-893f-4f0f-938c-0da76e19fc55"
-					(reference "R4")
+					(reference "R-3")
 					(unit 1)
 				)
 			)
@@ -3002,7 +3002,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "06996a25-2d7b-4766-bea6-1adfc82f0a5c")
-		(property "Reference" "C11"
+		(property "Reference" "C-2"
 			(at 23.368 95.758 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3013,8 +3013,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 24.384 99.314 0)
+		(property "Value" "4.7u"
+			(at 23.114 99.822 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3024,7 +3024,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 28.9052 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -3066,7 +3066,7 @@
 		(instances
 			(project "LEOS-F26-power"
 				(path "/3703ddf2-8141-438d-86a8-1eaec9672d0d/64f3d4b9-893f-4f0f-938c-0da76e19fc55"
-					(reference "C11")
+					(reference "C-2")
 					(unit 1)
 				)
 			)
@@ -3162,7 +3162,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "205f9878-a102-4af2-a69d-047e53c6cba3")
-		(property "Reference" "C16"
+		(property "Reference" "C-7"
 			(at 124.46 102.8699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3173,7 +3173,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "6.8p"
 			(at 124.46 105.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3184,7 +3184,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 121.6152 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -3226,7 +3226,7 @@
 		(instances
 			(project "LEOS-F26-power"
 				(path "/3703ddf2-8141-438d-86a8-1eaec9672d0d/64f3d4b9-893f-4f0f-938c-0da76e19fc55"
-					(reference "C16")
+					(reference "C-7")
 					(unit 1)
 				)
 			)
@@ -3243,7 +3243,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "20a8eb28-268c-45eb-abf0-09facab42c9d")
-		(property "Reference" "C12"
+		(property "Reference" "C-1"
 			(at 16.256 95.758 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3254,8 +3254,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 17.526 99.568 0)
+		(property "Value" "4.7u"
+			(at 16.764 99.568 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3265,7 +3265,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 22.5552 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -3299,15 +3299,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "47e09de4-fc1d-45e6-b2bd-060abc2fe469")
+			(uuid "47e09de4-fc1d-45e6-b2bd-060abc2fe46a")
 		)
 		(pin "2"
-			(uuid "782794a6-3345-4e6a-928f-242d6547d93c")
+			(uuid "782794a6-3345-4e6a-928f-242d6547d93d")
 		)
 		(instances
 			(project "LEOS-F26-power"
 				(path "/3703ddf2-8141-438d-86a8-1eaec9672d0d/64f3d4b9-893f-4f0f-938c-0da76e19fc55"
-					(reference "C12")
+					(reference "C-1")
 					(unit 1)
 				)
 			)
@@ -3324,8 +3324,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "268eff74-6839-4898-b765-7c1df5607490")
-		(property "Reference" "C9"
-			(at 37.846 95.758 0)
+		(property "Reference" "C-4"
+			(at 35.814 95.758 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3335,8 +3335,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 37.846 99.822 0)
+		(property "Value" "4.7u"
+			(at 36.068 99.822 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3346,7 +3346,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 41.6052 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -3380,15 +3380,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "47e09de4-fc1d-45e6-b2bd-060abc2fe469")
+			(uuid "47e09de4-fc1d-45e6-b2bd-060abc2fe46b")
 		)
 		(pin "2"
-			(uuid "782794a6-3345-4e6a-928f-242d6547d93c")
+			(uuid "782794a6-3345-4e6a-928f-242d6547d93e")
 		)
 		(instances
 			(project "LEOS-F26-power"
 				(path "/3703ddf2-8141-438d-86a8-1eaec9672d0d/64f3d4b9-893f-4f0f-938c-0da76e19fc55"
-					(reference "C9")
+					(reference "C-4")
 					(unit 1)
 				)
 			)
@@ -3404,10 +3404,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "29fb588a-eef7-48b0-b35e-683349050567")
-		(property "Reference" "R2"
-			(at 50.8 99.0599 0)
+		(property "Reference" "R-1"
+			(at 49.276 98.298 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3417,8 +3416,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 50.8 101.5999 0)
+		(property "Value" "365k"
+			(at 49.022 100.584 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3428,7 +3427,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 46.482 100.33 90)
 			(hide yes)
 			(show_name no)
@@ -3470,7 +3469,7 @@
 		(instances
 			(project "LEOS-F26-power"
 				(path "/3703ddf2-8141-438d-86a8-1eaec9672d0d/64f3d4b9-893f-4f0f-938c-0da76e19fc55"
-					(reference "R2")
+					(reference "R-1")
 					(unit 1)
 				)
 			)
@@ -3488,7 +3487,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f3f240f-8f57-4d08-9c30-eabf3fbf7beb")
-		(property "Reference" "C13"
+		(property "Reference" "C-8"
 			(at 132.08 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3499,7 +3498,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "47u"
 			(at 132.08 86.3599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3510,7 +3509,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 129.2352 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -3552,7 +3551,7 @@
 		(instances
 			(project "LEOS-F26-power"
 				(path "/3703ddf2-8141-438d-86a8-1eaec9672d0d/64f3d4b9-893f-4f0f-938c-0da76e19fc55"
-					(reference "C13")
+					(reference "C-8")
 					(unit 1)
 				)
 			)
@@ -3568,10 +3567,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3c542745-be6c-48c9-9ace-5440b4562233")
-		(property "Reference" "R3"
-			(at 50.8 111.7599 0)
+		(property "Reference" "R-2"
+			(at 49.53 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3581,8 +3579,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 50.8 114.2999 0)
+		(property "Value" "88.7"
+			(at 50.038 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3592,7 +3590,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 46.482 113.03 90)
 			(hide yes)
 			(show_name no)
@@ -3626,15 +3624,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "67703e07-79c7-4aa7-98dd-c37bc7a596a7")
+			(uuid "67703e07-79c7-4aa7-98dd-c37bc7a596a8")
 		)
 		(pin "1"
-			(uuid "6b95f004-0386-4680-bd94-ad4ac218ba5c")
+			(uuid "6b95f004-0386-4680-bd94-ad4ac218ba5d")
 		)
 		(instances
 			(project "LEOS-F26-power"
 				(path "/3703ddf2-8141-438d-86a8-1eaec9672d0d/64f3d4b9-893f-4f0f-938c-0da76e19fc55"
-					(reference "R3")
+					(reference "R-2")
 					(unit 1)
 				)
 			)
@@ -3884,17 +3882,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4861d620-f79c-4e59-a8df-163237b43f1e")
-		(property "Reference" "C8"
-			(at 78.74 74.168 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "C"
+		(property "Reference" "C-5"
 			(at 78.74 72.39 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3904,7 +3892,17 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Value" "100n"
+			(at 78.74 74.422 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 74.93 78.4352 0)
 			(hide yes)
 			(show_name no)
@@ -3946,7 +3944,7 @@
 		(instances
 			(project "LEOS-F26-power"
 				(path "/3703ddf2-8141-438d-86a8-1eaec9672d0d/64f3d4b9-893f-4f0f-938c-0da76e19fc55"
-					(reference "C8")
+					(reference "C-5")
 					(unit 1)
 				)
 			)
@@ -3964,7 +3962,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4e506c24-c91f-422b-8a3c-3baccff3898a")
-		(property "Reference" "C14"
+		(property "Reference" "C-9"
 			(at 142.24 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3975,7 +3973,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "47u"
 			(at 142.24 86.3599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3986,7 +3984,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 139.3952 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -4020,15 +4018,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "28548a59-282a-46c5-a20f-26885601909a")
+			(uuid "28548a59-282a-46c5-a20f-26885601909b")
 		)
 		(pin "1"
-			(uuid "8bc06e97-05da-4ab5-b80f-8e989c77b557")
+			(uuid "8bc06e97-05da-4ab5-b80f-8e989c77b558")
 		)
 		(instances
 			(project "LEOS-F26-power"
 				(path "/3703ddf2-8141-438d-86a8-1eaec9672d0d/64f3d4b9-893f-4f0f-938c-0da76e19fc55"
-					(reference "C14")
+					(reference "C-9")
 					(unit 1)
 				)
 			)
@@ -4144,7 +4142,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SO-POWERPAD8_DDA_TEX"
+		(property "Footprint" ""
 			(at 55.88 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -4227,7 +4225,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7a7b650a-09f3-43d2-b2c2-a0b281ebbad1")
-		(property "Reference" "C17"
+		(property "Reference" "C-10"
 			(at 182.88 78.7399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4238,7 +4236,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.1u"
 			(at 182.88 81.2799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4249,7 +4247,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 180.0352 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -4291,7 +4289,7 @@
 		(instances
 			(project "LEOS-F26-power"
 				(path "/3703ddf2-8141-438d-86a8-1eaec9672d0d/64f3d4b9-893f-4f0f-938c-0da76e19fc55"
-					(reference "C17")
+					(reference "C-10")
 					(unit 1)
 				)
 			)
@@ -4386,8 +4384,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "89de6fcc-fd96-4597-bdb2-fac305bbbd0e")
-		(property "Reference" "C10"
-			(at 30.226 95.758 0)
+		(property "Reference" "C-3"
+			(at 29.21 95.758 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4397,8 +4395,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 30.988 99.822 0)
+		(property "Value" "4.7u"
+			(at 29.718 99.822 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4408,7 +4406,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 35.2552 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -4442,15 +4440,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "47e09de4-fc1d-45e6-b2bd-060abc2fe469")
+			(uuid "47e09de4-fc1d-45e6-b2bd-060abc2fe46c")
 		)
 		(pin "2"
-			(uuid "782794a6-3345-4e6a-928f-242d6547d93c")
+			(uuid "782794a6-3345-4e6a-928f-242d6547d93f")
 		)
 		(instances
 			(project "LEOS-F26-power"
 				(path "/3703ddf2-8141-438d-86a8-1eaec9672d0d/64f3d4b9-893f-4f0f-938c-0da76e19fc55"
-					(reference "C10")
+					(reference "C-3")
 					(unit 1)
 				)
 			)
@@ -4468,7 +4466,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ae72c10-97fb-4a9b-ab13-bbff177de664")
-		(property "Reference" "C15"
+		(property "Reference" "C-6"
 			(at 114.3 111.7599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4479,7 +4477,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "620p"
 			(at 114.3 114.2999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4490,7 +4488,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 111.4552 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -4524,15 +4522,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "6f78f83b-a164-41c2-a8aa-a6a24225cfdd")
+			(uuid "6f78f83b-a164-41c2-a8aa-a6a24225cfde")
 		)
 		(pin "1"
-			(uuid "f20414f6-a204-4e4f-8653-542b34164c9c")
+			(uuid "f20414f6-a204-4e4f-8653-542b34164c9d")
 		)
 		(instances
 			(project "LEOS-F26-power"
 				(path "/3703ddf2-8141-438d-86a8-1eaec9672d0d/64f3d4b9-893f-4f0f-938c-0da76e19fc55"
-					(reference "C15")
+					(reference "C-6")
 					(unit 1)
 				)
 			)
@@ -4628,7 +4626,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a8524926-3ac1-4b62-9b9c-76110597ad31")
-		(property "Reference" "R5"
+		(property "Reference" "R-4"
 			(at 113.03 102.8699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4639,7 +4637,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "56.2k"
 			(at 113.03 105.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4650,7 +4648,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 108.712 104.14 90)
 			(hide yes)
 			(show_name no)
@@ -4692,7 +4690,7 @@
 		(instances
 			(project "LEOS-F26-power"
 				(path "/3703ddf2-8141-438d-86a8-1eaec9672d0d/64f3d4b9-893f-4f0f-938c-0da76e19fc55"
-					(reference "R5")
+					(reference "R-4")
 					(unit 1)
 				)
 			)
@@ -4710,7 +4708,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ae3e917e-fa18-472c-a1e5-3811d5c955a7")
-		(property "Reference" "R7"
+		(property "Reference" "R-5"
 			(at 151.13 102.8699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4721,7 +4719,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1.1k"
 			(at 151.13 105.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4732,7 +4730,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 146.812 104.14 90)
 			(hide yes)
 			(show_name no)
@@ -4774,7 +4772,7 @@
 		(instances
 			(project "LEOS-F26-power"
 				(path "/3703ddf2-8141-438d-86a8-1eaec9672d0d/64f3d4b9-893f-4f0f-938c-0da76e19fc55"
-					(reference "R7")
+					(reference "R-5")
 					(unit 1)
 				)
 			)
@@ -4812,7 +4810,7 @@
 				)
 			)
 		)
-		(property "Footprint" "QFN20_5x5MC_MCH"
+		(property "Footprint" ""
 			(at 199.39 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -4930,7 +4928,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d4764c6b-3e0c-4f4e-987c-ae3827326cf7")
-		(property "Reference" "L1"
+		(property "Reference" "L-1"
 			(at 118.11 72.39 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4940,7 +4938,7 @@
 				)
 			)
 		)
-		(property "Value" "L"
+		(property "Value" "10u"
 			(at 118.11 74.93 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4950,7 +4948,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 118.11 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -4992,7 +4990,7 @@
 		(instances
 			(project "LEOS-F26-power"
 				(path "/3703ddf2-8141-438d-86a8-1eaec9672d0d/64f3d4b9-893f-4f0f-938c-0da76e19fc55"
-					(reference "L1")
+					(reference "L-1")
 					(unit 1)
 				)
 			)
@@ -5243,7 +5241,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ffc5e0e6-3a7a-4ce4-b523-d524beb3919d")
-		(property "Reference" "D1"
+		(property "Reference" "D-1"
 			(at 114.3 82.2324 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5254,7 +5252,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D_Schottky"
+		(property "Value" "560m"
 			(at 114.3 84.7724 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5265,7 +5263,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
 			(at 111.76 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -5307,7 +5305,7 @@
 		(instances
 			(project "LEOS-F26-power"
 				(path "/3703ddf2-8141-438d-86a8-1eaec9672d0d/64f3d4b9-893f-4f0f-938c-0da76e19fc55"
-					(reference "D1")
+					(reference "D-1")
 					(unit 1)
 				)
 			)
@@ -5325,7 +5323,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fff35076-17d2-4646-8e86-393c3d7a69be")
-		(property "Reference" "R6"
+		(property "Reference" "R-6"
 			(at 151.13 87.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5336,7 +5334,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "25.5k"
 			(at 151.13 90.1699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5347,7 +5345,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 146.812 88.9 90)
 			(hide yes)
 			(show_name no)
@@ -5381,15 +5379,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "8e86e0bd-e22d-4802-b461-e749397dea33")
+			(uuid "8e86e0bd-e22d-4802-b461-e749397dea34")
 		)
 		(pin "2"
-			(uuid "4bc1937a-f221-4110-8418-5869aa245113")
+			(uuid "4bc1937a-f221-4110-8418-5869aa245114")
 		)
 		(instances
 			(project "LEOS-F26-power"
 				(path "/3703ddf2-8141-438d-86a8-1eaec9672d0d/64f3d4b9-893f-4f0f-938c-0da76e19fc55"
-					(reference "R6")
+					(reference "R-6")
 					(unit 1)
 				)
 			)
