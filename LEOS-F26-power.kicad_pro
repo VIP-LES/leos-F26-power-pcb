@@ -612,30 +612,12 @@
     },
     "bom_presets": [],
     "bom_settings": {
-      "exclude_dnp": false,
+      "exclude_dnp": true,
       "fields_ordered": [
         {
           "group_by": false,
           "label": "Reference",
           "name": "Reference",
-          "show": true
-        },
-        {
-          "group_by": true,
-          "label": "Value",
-          "name": "Value",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Datasheet",
-          "name": "Datasheet",
-          "show": true
-        },
-        {
-          "group_by": true,
-          "label": "Footprint",
-          "name": "Footprint",
           "show": true
         },
         {
@@ -646,20 +628,38 @@
         },
         {
           "group_by": true,
-          "label": "DNP",
-          "name": "${DNP}",
+          "label": "Value",
+          "name": "Value",
           "show": true
         },
         {
-          "group_by": false,
+          "group_by": true,
+          "label": "DNP",
+          "name": "${DNP}",
+          "show": false
+        },
+        {
+          "group_by": true,
+          "label": "Exclude from BOM",
+          "name": "${EXCLUDE_FROM_BOM}",
+          "show": false
+        },
+        {
+          "group_by": true,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
           "show": false
         },
         {
+          "group_by": true,
+          "label": "Footprint",
+          "name": "Footprint",
+          "show": false
+        },
+        {
           "group_by": false,
-          "label": "Exclude from BOM",
-          "name": "${EXCLUDE_FROM_BOM}",
+          "label": "Datasheet",
+          "name": "Datasheet",
           "show": false
         },
         {
@@ -672,31 +672,31 @@
           "group_by": false,
           "label": "Manufacturer",
           "name": "Manufacturer",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "MPN",
           "name": "MPN",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "Digikey",
           "name": "Digikey",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "LCSC",
           "name": "LCSC",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "Description",
           "name": "Description",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -761,7 +761,7 @@
         "uuid": "3703ddf2-8141-438d-86a8-1eaec9672d0d"
       }
     ],
-    "used_designators": "U1-6,TP1-4,R1-8,#FLG1,Cin1,J1-2,A1,Y1-2,#PWR1-44,C1-18,D1,L1,Cout1,R_ILIM1",
+    "used_designators": "U1-5,TP1-4,R1-8,#FLG1,J1-2,A1,Y1-2,#PWR1-27,C1-17,D1,L1",
     "variants": []
   },
   "sheets": [
