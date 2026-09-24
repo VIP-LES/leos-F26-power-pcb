@@ -2000,7 +2000,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "0.1uF 50V X7R 0805"
 			(at 113.03 92.71 0)
 			(hide yes)
 			(show_name no)
