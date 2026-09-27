@@ -1845,17 +1845,6 @@
 		)
 		(uuid "0980e770-08e0-453f-958b-9fd523d8300f")
 	)
-	(hierarchical_label "Vout"
-		(shape output)
-		(at 119.38 128.27 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0c66b342-1a1d-46c9-bffe-4eeee2dd099c")
-	)
 	(hierarchical_label "SCK1"
 		(shape input)
 		(at 175.26 106.68 180)
@@ -1866,39 +1855,6 @@
 			(justify right)
 		)
 		(uuid "4bc10295-6f5f-4353-a4fa-00d1e496b03a")
-	)
-	(hierarchical_label "VIN"
-		(shape input)
-		(at 146.05 135.89 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "55e97f8b-62cc-4eaa-a539-f1b401d064dc")
-	)
-	(hierarchical_label "VIN"
-		(shape input)
-		(at 146.05 109.22 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7a0236ac-7e90-4366-8bd5-367cdb1c6ccd")
-	)
-	(hierarchical_label "Vin"
-		(shape input)
-		(at 92.71 128.27 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "948ca30a-b0d9-4876-871b-4b5715cd90ae")
 	)
 	(hierarchical_label "MOSI1"
 		(shape input)
@@ -2162,84 +2118,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 224.79 132.08 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "54bf3eb0-3421-4d07-8631-fa58cdaf70af")
-		(property "Reference" "#PWR02"
-			(at 224.79 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 224.79 137.16 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 224.79 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 224.79 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 224.79 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f654926a-420d-4b6d-a95d-34ccbdded4c7")
-		)
-		(instances
-			(project "LEOS-F26-power"
-				(path "/3703ddf2-8141-438d-86a8-1eaec9672d0d"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 219.71 54.61 0)
 		(unit 1)
@@ -2395,6 +2273,84 @@
 			)
 		)
 	)
+	(symbol
+		(lib_id "power:GND")
+		(at 224.79 132.08 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dc3fd6bb-81c0-427f-93fd-54fbb1644f6e")
+		(property "Reference" "#PWR02"
+			(at 224.79 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 224.79 137.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 224.79 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ba91f380-1944-47bc-846f-cad3e5277fa4")
+		)
+		(instances
+			(project "LEOS-F26-power"
+				(path "/3703ddf2-8141-438d-86a8-1eaec9672d0d"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(sheet
 		(at 129.54 85.09)
 		(size 21.59 12.7)
@@ -2462,7 +2418,7 @@
 		)
 	)
 	(sheet
-		(at 92.71 120.65)
+		(at 99.06 115.57)
 		(size 26.67 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2478,7 +2434,7 @@
 		)
 		(uuid "470843d4-556c-4e78-8e6c-25b65a02e4d0")
 		(property "Sheetname" "E-Fuse"
-			(at 92.71 119.9384 0)
+			(at 99.06 114.8584 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2489,7 +2445,7 @@
 			)
 		)
 		(property "Sheetfile" "E-Fuse.kicad_sch"
-			(at 92.71 136.4746 0)
+			(at 99.06 131.3946 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
