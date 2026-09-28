@@ -1432,7 +1432,7 @@
 				)
 			)
 		)
-		(property "Digikey" "1276-3148-1-ND"
+		(property "Digikey" "1276-2728-1-ND"
 			(at 114.3 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -1443,7 +1443,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C6142744"
+		(property "LCSC" ""
 			(at 114.3 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -1454,7 +1454,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL31B226MPHNNNE"
+		(property "MPN" "CL31A226MOCLNNC"
 			(at 114.3 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -1942,7 +1942,7 @@
 				)
 			)
 		)
-		(property "Digikey" "1276-3148-1-ND"
+		(property "Digikey" "1276-2728-1-ND"
 			(at 121.92 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -1953,7 +1953,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C6142744"
+		(property "LCSC" ""
 			(at 121.92 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -1964,7 +1964,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL31B226MPHNNNE"
+		(property "MPN" "CL31A226MOCLNNC"
 			(at 121.92 52.07 0)
 			(hide yes)
 			(show_name no)

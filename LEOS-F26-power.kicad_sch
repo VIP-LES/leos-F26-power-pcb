@@ -1716,6 +1716,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 114.3) (xy 201.93 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "116d351f-b363-454d-a00b-a3e11c84d900")
+	)
+	(wire
+		(pts
 			(xy 172.72 93.98) (xy 201.93 93.98)
 		)
 		(stroke
@@ -1723,26 +1733,6 @@
 			(type default)
 		)
 		(uuid "2c7e4451-edea-45cd-ab9d-a408a713260c")
-	)
-	(wire
-		(pts
-			(xy 175.26 109.22) (xy 201.93 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "325155c4-bb8c-4fcd-8d98-04da20d85d85")
-	)
-	(wire
-		(pts
-			(xy 175.26 114.3) (xy 201.93 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35d84603-b43a-49a7-b6a4-6e0317b6b4bc")
 	)
 	(wire
 		(pts
@@ -1756,13 +1746,13 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 106.68) (xy 201.93 106.68)
+			(xy 175.26 111.76) (xy 201.93 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8a77f36b-3bb1-47e3-b922-a8e220e061f7")
+		(uuid "71ec3726-6630-4556-96a0-0f9028f34384")
 	)
 	(wire
 		(pts
@@ -1806,16 +1796,6 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 111.76) (xy 201.93 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99d8f1a5-2f31-4982-8a96-45051d15762f")
-	)
-	(wire
-		(pts
 			(xy 172.72 91.44) (xy 201.93 91.44)
 		)
 		(stroke
@@ -1823,6 +1803,16 @@
 			(type default)
 		)
 		(uuid "9bf1b6b6-5a49-4b83-9d29-a27b625cb368")
+	)
+	(wire
+		(pts
+			(xy 175.26 106.68) (xy 201.93 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db144f8a-9581-46eb-9733-b97275a58b8b")
 	)
 	(wire
 		(pts
@@ -1834,49 +1824,55 @@
 		)
 		(uuid "f9382656-9821-4f58-860f-287dd1ceacbb")
 	)
-	(hierarchical_label "CS1"
-		(shape input)
-		(at 175.26 114.3 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
+	(wire
+		(pts
+			(xy 175.26 109.22) (xy 201.93 109.22)
 		)
-		(uuid "0980e770-08e0-453f-958b-9fd523d8300f")
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe7c0e4e-3d7a-4bc1-ba23-737e0a86fd39")
 	)
-	(hierarchical_label "SCK1"
-		(shape input)
-		(at 175.26 106.68 180)
+	(label "CS1"
+		(at 175.26 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left bottom)
 		)
-		(uuid "4bc10295-6f5f-4353-a4fa-00d1e496b03a")
+		(uuid "2f76ce84-364c-4cac-af2b-bd693233af41")
 	)
-	(hierarchical_label "MOSI1"
-		(shape input)
-		(at 175.26 109.22 180)
+	(label "MOSI1"
+		(at 175.26 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left bottom)
 		)
-		(uuid "c0a150f4-f0e5-44c6-aad0-ce0cdbf86077")
+		(uuid "47520466-d85f-4756-a3aa-36eb056a06e3")
 	)
-	(hierarchical_label "MISO1"
-		(shape output)
-		(at 175.26 111.76 180)
+	(label "MISO1"
+		(at 175.26 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left bottom)
 		)
-		(uuid "f9577f21-b6fb-4bb0-b63f-57a070e036ad")
+		(uuid "9023fd17-9a54-416e-b44b-c551b53d7977")
+	)
+	(label "SCK1"
+		(at 175.26 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bcefb4eb-ed48-4806-bec1-68965bde74f7")
 	)
 	(symbol
 		(lib_id "MCU_Module:RaspberryPi_Pico")
@@ -2661,6 +2657,46 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "CS1" input
+			(at 175.26 114.3 0)
+			(uuid "08faf184-3c37-4c18-8585-31ce32aab6ce")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MISO1" output
+			(at 175.26 111.76 0)
+			(uuid "3ab5f66d-94ee-4438-bd9f-809d127e5239")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MOSI1" input
+			(at 175.26 109.22 0)
+			(uuid "dee7d55d-e04f-42e2-b14d-81209ac7268c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCK1" input
+			(at 175.26 106.68 0)
+			(uuid "3ece8bfd-0021-44eb-b294-325fdf1b09fc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

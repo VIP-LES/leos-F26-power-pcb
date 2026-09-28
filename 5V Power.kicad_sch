@@ -1394,6 +1394,12 @@
 		(uuid "2eddf93c-b73e-447a-ac58-9866e2c11304")
 	)
 	(junction
+		(at 199.39 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "32d53d45-391e-43f5-a67a-1946b72ea050")
+	)
+	(junction
 		(at 177.8 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1472,12 +1478,6 @@
 		(uuid "cc2820ab-eb55-452d-86f6-9830393f9f42")
 	)
 	(junction
-		(at 199.39 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dd9a0307-4c1c-4d02-98b6-00ad7778f0ce")
-	)
-	(junction
 		(at 189.23 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1488,16 +1488,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fe1906fa-7a58-4c26-9cd6-444e5b834027")
-	)
-	(wire
-		(pts
-			(xy 196.85 105.41) (xy 199.39 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03145007-32c3-4dff-80e7-bd4604596efd")
 	)
 	(wire
 		(pts
@@ -1678,6 +1668,16 @@
 			(type default)
 		)
 		(uuid "569528b1-954c-468b-8e1e-a11ed9092218")
+	)
+	(wire
+		(pts
+			(xy 199.39 105.41) (xy 200.66 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "584f919f-76b4-470f-ae42-954f1e91189a")
 	)
 	(wire
 		(pts
@@ -1871,16 +1871,6 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 105.41) (xy 199.39 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aad6a247-de45-45e2-934d-d756efdadaa9")
-	)
-	(wire
-		(pts
 			(xy 162.56 72.39) (xy 167.64 72.39)
 		)
 		(stroke
@@ -1968,6 +1958,16 @@
 			(type default)
 		)
 		(uuid "c3a5da51-87f7-444f-89cc-ef58c0a33143")
+	)
+	(wire
+		(pts
+			(xy 199.39 105.41) (xy 199.39 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd9a8374-65dc-41ae-a6bd-a96fc6776e2f")
 	)
 	(wire
 		(pts
@@ -2139,27 +2139,25 @@
 		)
 		(uuid "f9504469-a95e-40ba-9377-2b20a7eada97")
 	)
-	(hierarchical_label "FB"
-		(shape input)
-		(at 196.85 105.41 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2c21581f-ce74-442e-bf44-f2809a755a02")
-	)
-	(hierarchical_label "FB"
-		(shape input)
+	(label "FB"
 		(at 144.78 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left bottom)
 		)
-		(uuid "c1c069d2-d96c-4b5f-8401-445a7bff8ca9")
+		(uuid "3afe4b09-20ae-4657-ba47-53d88f82d763")
+	)
+	(label "FB"
+		(at 200.66 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9dfbddd6-14e2-43f6-a59e-26e315aa92a7")
 	)
 	(symbol
 		(lib_id "power:+5V")
@@ -2657,7 +2655,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 178.7652 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -2680,6 +2678,39 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 177.8 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "4713-GMC31X5R476M25NTCT-ND"
+			(at 177.8 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GMC31X5R476M25NT"
+			(at 177.8 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Cal-Chip Electronics, Inc."
 			(at 177.8 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -3376,7 +3407,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 190.1952 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -3399,6 +3430,39 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 189.23 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "4713-GMC31X5R476M25NTCT-ND"
+			(at 189.23 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GMC31X5R476M25NT"
+			(at 189.23 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Cal-Chip Electronics, Inc."
 			(at 189.23 82.55 0)
 			(hide yes)
 			(show_name no)
