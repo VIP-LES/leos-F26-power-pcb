@@ -690,7 +690,7 @@
           "group_by": false,
           "label": "LCSC",
           "name": "LCSC",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -702,7 +702,7 @@
           "group_by": false,
           "label": "Sim.Pins",
           "name": "Sim.Pins",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -718,7 +718,7 @@
         }
       ],
       "filter_string": "",
-      "group_symbols": true,
+      "group_symbols": false,
       "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
@@ -773,7 +773,7 @@
         "uuid": "3703ddf2-8141-438d-86a8-1eaec9672d0d"
       }
     ],
-    "used_designators": "U1-7,TP1-4,R1-8,#FLG1-5,Cin1,J1-10,A1,Y1-2,#PWR1-55,C1-18,D1,L1,Cout1,R_ILIM1",
+    "used_designators": "U1-7,TP1-4,R1-8,#FLG1-5,Cin1,J1-10,A1,CdVdt1,Y1-2,#PWR1-55,C1-18,D1,L1,Cout1,R_ILIM1",
     "variants": []
   },
   "sheets": [
