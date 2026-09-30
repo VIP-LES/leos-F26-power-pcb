@@ -17,7 +17,7 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
+			(property "Reference" "U5"
 				(at 22.86 10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -37,7 +37,7 @@
 					)
 				)
 			)
-			(property "Footprint" "SO-POWERPAD8_DDA_TEX"
+			(property "Footprint" "LEOS:SO-POWERPAD8_DDA_TEX"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -62,6 +62,39 @@
 				)
 			)
 			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Digikey" "296-TPS54540BDDA-ND"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "TPS54540BDDA"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Texas Instruments"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -261,7 +294,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin power_in line
 					(at 45.72 -5.08 180)
 					(length 7.62)
 					(name "GND"
@@ -297,7 +330,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 45.72 0 180)
 					(length 7.62)
 					(name "GND"
@@ -327,7 +360,7 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
+			(property "Reference" "U6"
 				(at 20.32 10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -372,6 +405,39 @@
 				)
 			)
 			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Digikey" "MCP41HV51-104E/MQ-ND"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "MCP41HV51-104E/MQ"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Microchip Technology"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -823,7 +889,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 40.64 0 180)
 					(length 7.62)
 					(name "EPAD"
@@ -2724,6 +2790,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 85.09) (xy 245.11 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7caac7c2-cc79-4289-8efb-258e0dbc6c19")
+	)
+	(wire
+		(pts
 			(xy 110.49 107.95) (xy 110.49 109.22)
 		)
 		(stroke
@@ -3061,16 +3137,6 @@
 			(type default)
 		)
 		(uuid "f8c4a878-5800-413c-84fd-c292b62454d1")
-	)
-	(wire
-		(pts
-			(xy 245.11 85.09) (xy 240.03 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8cb88e0-6943-4978-8bfb-afbfede76024")
 	)
 	(wire
 		(pts
@@ -6188,7 +6254,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+		(property "Footprint" "LEOS:IND_TAIYO_NRS8030_TAY"
 			(at 118.11 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -6212,6 +6278,39 @@
 		)
 		(property "Description" "Inductor"
 			(at 118.11 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "587-2960-1-ND"
+			(at 118.11 77.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "NRS8030T100MJGJ"
+			(at 118.11 77.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Taiyo Yuden"
+			(at 118.11 77.47 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6527,6 +6626,39 @@
 		)
 		(property "Description" "Schottky diode"
 			(at 111.76 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "VS-50WQ04FNHM3GI-ND"
+			(at 111.76 83.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "VS-50WQ04FNHM3"
+			(at 111.76 83.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Vishay General Semiconductor - Diodes Division"
+			(at 111.76 83.82 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
