@@ -3431,7 +3431,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -4420,7 +4420,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "bb1dd0c4-8ed0-4d59-87ee-fefc226362b9")
 		(property "Reference" "TP1-18"
@@ -4480,7 +4480,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "16f0431e-5858-4297-97cb-4c704a0e949d")
+			(uuid "16f0431e-5858-4297-97cb-4c704a0e949e")
 		)
 		(instances
 			(project "LEOS-F26-power"
@@ -5002,7 +5002,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -5919,10 +5919,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "979b4179-b492-4a0b-b8f6-2e7ac01125d8")
+			(uuid "979b4179-b492-4a0b-b8f6-2e7ac01125d9")
 		)
 		(pin "2"
-			(uuid "59f3651c-a509-46d4-a106-ba4b92de666d")
+			(uuid "59f3651c-a509-46d4-a106-ba4b92de666e")
 		)
 		(instances
 			(project "LEOS-F26-power"
