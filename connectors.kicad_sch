@@ -2489,7 +2489,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ee1b1c46-0305-4d97-9954-b29614e8a530")
-		(property "Reference" "TP5V"
+		(property "Reference" "TP5V1"
 			(at 105.41 46.482 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2595,7 +2595,7 @@
 		(instances
 			(project "LEOS-F26-power"
 				(path "/3703ddf2-8141-438d-86a8-1eaec9672d0d/341d819d-3d1a-4f8b-94f1-4c6aaa16d806"
-					(reference "TP5V")
+					(reference "TP5V1")
 					(unit 1)
 				)
 			)

@@ -4423,7 +4423,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bb1dd0c4-8ed0-4d59-87ee-fefc226362b9")
-		(property "Reference" "TP1-18V"
+		(property "Reference" "TP1-18"
 			(at 243.586 89.916 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4485,7 +4485,7 @@
 		(instances
 			(project "LEOS-F26-power"
 				(path "/3703ddf2-8141-438d-86a8-1eaec9672d0d/470843d4-556c-4e78-8e6c-25b65a02e4d0"
-					(reference "TP1-18V")
+					(reference "TP1-18")
 					(unit 1)
 				)
 			)
@@ -5007,7 +5007,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d5f9eebf-d5d4-4350-a3fa-d51719bbfe78")
-		(property "Reference" "TPUVLO"
+		(property "Reference" "TPUVLO1"
 			(at 60.198 94.742 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5067,7 +5067,7 @@
 		(instances
 			(project "LEOS-F26-power"
 				(path "/3703ddf2-8141-438d-86a8-1eaec9672d0d/470843d4-556c-4e78-8e6c-25b65a02e4d0"
-					(reference "TPUVLO")
+					(reference "TPUVLO1")
 					(unit 1)
 				)
 			)

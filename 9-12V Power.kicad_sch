@@ -2343,6 +2343,16 @@
 		)
 		(uuid "2acecef6-a187-4004-8609-f7f2a79b2364")
 	)
+	(text "Switching Frequency: 250kHz"
+		(exclude_from_sim no)
+		(at 71.882 117.602 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "356c96d7-5b0a-4d43-8487-bd57abd0edc5")
+	)
 	(text ""
 		(exclude_from_sim no)
 		(at 221.742 62.23 0)
