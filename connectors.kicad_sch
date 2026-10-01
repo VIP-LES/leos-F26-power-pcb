@@ -2283,12 +2283,12 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(in_pos_files no)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "e03f2b20-17e6-4d16-b5ca-73366acd5805")
-		(property "Reference" "TP4"
+		(property "Reference" "TPGND1"
 			(at 105.41 57.658 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2344,7 +2344,7 @@
 				)
 			)
 		)
-		(property "Digikey" "  36-5001-ND"
+		(property "Digikey" "36-5001-ND"
 			(at 104.14 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -2394,7 +2394,7 @@
 		(instances
 			(project "LEOS-F26-power"
 				(path "/3703ddf2-8141-438d-86a8-1eaec9672d0d/341d819d-3d1a-4f8b-94f1-4c6aaa16d806"
-					(reference "TP4")
+					(reference "TPGND1")
 					(unit 1)
 				)
 			)
@@ -2484,12 +2484,12 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(in_pos_files no)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "ee1b1c46-0305-4d97-9954-b29614e8a530")
-		(property "Reference" "TP3"
+		(property "Reference" "TP5V"
 			(at 105.41 46.482 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2545,7 +2545,7 @@
 				)
 			)
 		)
-		(property "Digikey" "  36-5000-ND"
+		(property "Digikey" "36-5000-ND"
 			(at 104.14 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -2595,7 +2595,7 @@
 		(instances
 			(project "LEOS-F26-power"
 				(path "/3703ddf2-8141-438d-86a8-1eaec9672d0d/341d819d-3d1a-4f8b-94f1-4c6aaa16d806"
-					(reference "TP3")
+					(reference "TP5V")
 					(unit 1)
 				)
 			)
