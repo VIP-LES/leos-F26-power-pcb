@@ -5008,7 +5008,7 @@
 		(dnp no)
 		(uuid "d5f9eebf-d5d4-4350-a3fa-d51719bbfe78")
 		(property "Reference" "TPUVLO1"
-			(at 60.198 94.742 90)
+			(at 58.42 94.996 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
