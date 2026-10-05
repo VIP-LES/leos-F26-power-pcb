@@ -3319,7 +3319,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04832f16-b65d-4671-9e78-59368a391040")
-		(property "Reference" "R-3"
+		(property "Reference" "R-1"
 			(at 58.42 111.7599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3416,7 +3416,7 @@
 		(instances
 			(project "LEOS-F26-power"
 				(path "/3703ddf2-8141-438d-86a8-1eaec9672d0d/64f3d4b9-893f-4f0f-938c-0da76e19fc55"
-					(reference "R-3")
+					(reference "R-1")
 					(unit 1)
 				)
 			)
@@ -4732,7 +4732,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7a7b650a-09f3-43d2-b2c2-a0b281ebbad1")
-		(property "Reference" "C-10"
+		(property "Reference" "C-9"
 			(at 182.88 78.7399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4840,7 +4840,7 @@
 		(instances
 			(project "LEOS-F26-power"
 				(path "/3703ddf2-8141-438d-86a8-1eaec9672d0d/64f3d4b9-893f-4f0f-938c-0da76e19fc55"
-					(reference "C-10")
+					(reference "C-9")
 					(unit 1)
 				)
 			)
@@ -5477,7 +5477,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a8524926-3ac1-4b62-9b9c-76110597ad31")
-		(property "Reference" "R-4"
+		(property "Reference" "R-2"
 			(at 113.03 102.8699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5574,7 +5574,7 @@
 		(instances
 			(project "LEOS-F26-power"
 				(path "/3703ddf2-8141-438d-86a8-1eaec9672d0d/64f3d4b9-893f-4f0f-938c-0da76e19fc55"
-					(reference "R-4")
+					(reference "R-2")
 					(unit 1)
 				)
 			)
@@ -5592,7 +5592,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ae3e917e-fa18-472c-a1e5-3811d5c955a7")
-		(property "Reference" "R-5"
+		(property "Reference" "R-3"
 			(at 151.13 102.8699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5689,7 +5689,7 @@
 		(instances
 			(project "LEOS-F26-power"
 				(path "/3703ddf2-8141-438d-86a8-1eaec9672d0d/64f3d4b9-893f-4f0f-938c-0da76e19fc55"
-					(reference "R-5")
+					(reference "R-3")
 					(unit 1)
 				)
 			)
@@ -6419,7 +6419,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fff35076-17d2-4646-8e86-393c3d7a69be")
-		(property "Reference" "R-6"
+		(property "Reference" "R-4"
 			(at 151.13 87.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6516,7 +6516,7 @@
 		(instances
 			(project "LEOS-F26-power"
 				(path "/3703ddf2-8141-438d-86a8-1eaec9672d0d/64f3d4b9-893f-4f0f-938c-0da76e19fc55"
-					(reference "R-6")
+					(reference "R-4")
 					(unit 1)
 				)
 			)

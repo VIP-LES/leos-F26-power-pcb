@@ -2964,7 +2964,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d655f7b-3903-4ebb-a3f1-3b32b5605866")
-		(property "Reference" "R_5"
+		(property "Reference" "R_3"
 			(at 201.93 81.2799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3061,7 +3061,7 @@
 		(instances
 			(project "LEOS-F26-power"
 				(path "/3703ddf2-8141-438d-86a8-1eaec9672d0d/528ff9b0-a904-4a78-86c6-11cbf84face6"
-					(reference "R_5")
+					(reference "R_3")
 					(unit 1)
 				)
 			)
@@ -3157,7 +3157,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66000e8a-417a-4c62-bbcd-005c9517457e")
-		(property "Reference" "R_3"
+		(property "Reference" "R_1"
 			(at 95.25 100.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3254,7 +3254,7 @@
 		(instances
 			(project "LEOS-F26-power"
 				(path "/3703ddf2-8141-438d-86a8-1eaec9672d0d/528ff9b0-a904-4a78-86c6-11cbf84face6"
-					(reference "R_3")
+					(reference "R_1")
 					(unit 1)
 				)
 			)
@@ -3884,7 +3884,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a31336dd-269b-413f-8e9e-d133fbc60f4e")
-		(property "Reference" "R_4"
+		(property "Reference" "R_2"
 			(at 157.48 101.5999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3981,7 +3981,7 @@
 		(instances
 			(project "LEOS-F26-power"
 				(path "/3703ddf2-8141-438d-86a8-1eaec9672d0d/528ff9b0-a904-4a78-86c6-11cbf84face6"
-					(reference "R_4")
+					(reference "R_2")
 					(unit 1)
 				)
 			)
@@ -3999,7 +3999,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a473149c-1018-40ee-ba30-bf31e7eb9cbb")
-		(property "Reference" "R_6"
+		(property "Reference" "R_4"
 			(at 201.93 111.7599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4096,7 +4096,7 @@
 		(instances
 			(project "LEOS-F26-power"
 				(path "/3703ddf2-8141-438d-86a8-1eaec9672d0d/528ff9b0-a904-4a78-86c6-11cbf84face6"
-					(reference "R_6")
+					(reference "R_4")
 					(unit 1)
 				)
 			)

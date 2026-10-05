@@ -4418,9 +4418,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files no)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "bb1dd0c4-8ed0-4d59-87ee-fefc226362b9")
 		(property "Reference" "TP1-18"
