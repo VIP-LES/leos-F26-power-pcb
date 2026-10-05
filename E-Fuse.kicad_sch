@@ -3559,7 +3559,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "150k"
+		(property "Value" "160k"
 			(at 64.262 94.996 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4207,7 +4207,7 @@
 				)
 			)
 		)
-		(property "Digikey" "1276-6698-1-ND"
+		(property "Digikey" "490-10748-1-ND"
 			(at 129.54 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -4218,7 +4218,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL21X106KAYNNNE"
+		(property "MPN" "GRM21BR61E106MA73L"
 			(at 129.54 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -4229,7 +4229,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "Murata Electronics"
 			(at 129.54 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -4557,7 +4557,7 @@
 				)
 			)
 		)
-		(property "Digikey" "1276-6698-1-ND"
+		(property "Digikey" "490-10748-1-ND"
 			(at 48.26 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -4568,7 +4568,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL21X106KAYNNNE"
+		(property "MPN" "GRM21BR61E106MA73L"
 			(at 48.26 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -4579,7 +4579,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "Murata Electronics"
 			(at 48.26 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -5765,7 +5765,7 @@
 				)
 			)
 		)
-		(property "Digikey" "1276-6698-1-ND"
+		(property "Digikey" "490-10748-1-ND"
 			(at 124.46 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -5776,7 +5776,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL21X106KAYNNNE"
+		(property "MPN" "GRM21BR61E106MA73L"
 			(at 124.46 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -5787,7 +5787,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "Murata Electronics"
 			(at 124.46 92.71 0)
 			(hide yes)
 			(show_name no)

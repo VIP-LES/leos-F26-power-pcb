@@ -3488,7 +3488,7 @@
 				)
 			)
 		)
-		(property "Digikey" "1276-2970-1-ND"
+		(property "Digikey" "1276-1248-1-ND"
 			(at 27.94 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -3499,7 +3499,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL21B475KOFNFNE"
+		(property "MPN" "CL21A475KBQNNNE"
 			(at 27.94 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -3795,7 +3795,7 @@
 				)
 			)
 		)
-		(property "Digikey" "1276-2970-1-ND"
+		(property "Digikey" "1276-1248-1-ND"
 			(at 21.59 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -3806,7 +3806,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL21B475KOFNFNE"
+		(property "MPN" "CL21A475KBQNNNE"
 			(at 21.59 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -3909,7 +3909,7 @@
 				)
 			)
 		)
-		(property "Digikey" "1276-2970-1-ND"
+		(property "Digikey" "1276-1248-1-ND"
 			(at 40.64 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -3920,7 +3920,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL21B475KOFNFNE"
+		(property "MPN" "CL21A475KBQNNNE"
 			(at 40.64 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -5147,7 +5147,7 @@
 				)
 			)
 		)
-		(property "Digikey" "1276-2970-1-ND"
+		(property "Digikey" "1276-1248-1-ND"
 			(at 34.29 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -5158,7 +5158,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL21B475KOFNFNE"
+		(property "MPN" "CL21A475KBQNNNE"
 			(at 34.29 97.79 0)
 			(hide yes)
 			(show_name no)
