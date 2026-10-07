@@ -5562,7 +5562,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT60IPW-M_1x03_P7.20mm_Horizontal"
+		(property "Footprint" "LEOS:AMASS_XT60IPW-M_1x03_P7.20mm_Horizontal"
 			(at 168.91 101.6 0)
 			(hide yes)
 			(show_name no)
