@@ -7,7 +7,7 @@ fp-info-cache
 *.bck
 *.tmp
 *_autosave-*
-
+*backups/*.zip
 # Outputs (don’t version fab files)
 *.gbr
 *.gbrjob
