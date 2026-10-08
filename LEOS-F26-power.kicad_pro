@@ -40,8 +40,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.5588,
-          "width": 1.4605
+          "height": 2.92,
+          "width": 1.27
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -60,12 +60,12 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.0,
-          "min_island_area": 0.0013161349,
-          "min_thickness": 0.2,
-          "pad_connection": 0,
+          "min_clearance": 0.25,
+          "min_island_area": 10.0,
+          "min_thickness": 0.25,
+          "pad_connection": 1,
           "remove_islands": 0,
-          "thermal_relief_gap": 0.5,
+          "thermal_relief_gap": 0.3,
           "thermal_relief_spoke_width": 0.5
         }
       },
@@ -621,15 +621,33 @@
           "show": true
         },
         {
+          "group_by": false,
+          "label": "Qty",
+          "name": "${QUANTITY}",
+          "show": true
+        },
+        {
           "group_by": true,
           "label": "Value",
           "name": "Value",
           "show": true
         },
         {
-          "group_by": false,
-          "label": "Datasheet",
-          "name": "Datasheet",
+          "group_by": true,
+          "label": "DNP",
+          "name": "${DNP}",
+          "show": false
+        },
+        {
+          "group_by": true,
+          "label": "Exclude from BOM",
+          "name": "${EXCLUDE_FROM_BOM}",
+          "show": false
+        },
+        {
+          "group_by": true,
+          "label": "Exclude from Board",
+          "name": "${EXCLUDE_FROM_BOARD}",
           "show": false
         },
         {
@@ -640,38 +658,14 @@
         },
         {
           "group_by": false,
-          "label": "Qty",
-          "name": "${QUANTITY}",
-          "show": true
-        },
-        {
-          "group_by": true,
-          "label": "DNP",
-          "name": "${DNP}",
+          "label": "Datasheet",
+          "name": "Datasheet",
           "show": false
         },
         {
           "group_by": false,
-          "label": "Exclude from Board",
-          "name": "${EXCLUDE_FROM_BOARD}",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Exclude from Simulation",
-          "name": "${EXCLUDE_FROM_SIM}",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Exclude from Position Files",
-          "name": "${EXCLUDE_FROM_POS_FILES}",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Exclude from BOM",
-          "name": "${EXCLUDE_FROM_BOM}",
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
           "show": false
         },
         {
@@ -696,7 +690,7 @@
           "group_by": false,
           "label": "LCSC",
           "name": "LCSC",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -708,12 +702,6 @@
           "group_by": false,
           "label": "Sim.Pins",
           "name": "Sim.Pins",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
           "show": false
         }
       ],
@@ -754,14 +742,6 @@
       "version": 1
     },
     "net_format_name": "",
-    "ngspice": {
-      "fix_include_paths": true,
-      "meta": {
-        "version": 0
-      },
-      "model_mode": 4,
-      "workbook_filename": ""
-    },
     "page_layout_descr_file": "5V Power",
     "plot_directory": "",
     "reuse_designators": true,
@@ -781,7 +761,7 @@
         "uuid": "3703ddf2-8141-438d-86a8-1eaec9672d0d"
       }
     ],
-    "used_designators": "R\\-1,#FLG1-5,C\\-1,C\\-5,A1,J1-10,TP5V1,Rfb1-4,C_5,Rlim1,L\\-1,CdVdt1,Y1-2,#PWR1-58,Ruvlo1-2,C1-18,R1-8,Ccomp1-4,Cboot1-2,L1-2,Cout1-4,D1-2,Rclk1-2,U1-7,TPUVLO1,Cin1-2,Cslew1,Rcomp1-2,TP1-9,R_ILIM1",
+    "used_designators": "U1-5,TP1-4,R1-8,#FLG1,J1-2,A1,Y1-2,#PWR1-27,C1-17,D1,L1",
     "variants": []
   },
   "sheets": [
@@ -798,12 +778,12 @@
       "Connectors"
     ],
     [
-      "470843d4-556c-4e78-8e6c-25b65a02e4d0",
-      "E-Fuse"
-    ],
-    [
       "528ff9b0-a904-4a78-86c6-11cbf84face6",
       "5V Power"
+    ],
+    [
+      "470843d4-556c-4e78-8e6c-25b65a02e4d0",
+      "E-Fuse"
     ],
     [
       "64f3d4b9-893f-4f0f-938c-0da76e19fc55",
