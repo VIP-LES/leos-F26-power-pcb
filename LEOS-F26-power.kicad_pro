@@ -778,12 +778,12 @@
       "Connectors"
     ],
     [
-      "528ff9b0-a904-4a78-86c6-11cbf84face6",
-      "5V Power"
-    ],
-    [
       "470843d4-556c-4e78-8e6c-25b65a02e4d0",
       "E-Fuse"
+    ],
+    [
+      "528ff9b0-a904-4a78-86c6-11cbf84face6",
+      "5V Power"
     ],
     [
       "64f3d4b9-893f-4f0f-938c-0da76e19fc55",
