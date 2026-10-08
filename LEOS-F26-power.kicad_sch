@@ -1669,6 +1669,10 @@
 		(uuid "6f06dba8-7768-4144-a990-283d930b0353")
 	)
 	(no_connect
+		(at 201.93 111.76)
+		(uuid "7b220250-6bb2-41c9-853a-57102426eca0")
+	)
+	(no_connect
 		(at 201.93 81.28)
 		(uuid "7e6fa5ea-13f3-4889-bc1b-031a8130a636")
 	)
@@ -1743,16 +1747,6 @@
 			(type default)
 		)
 		(uuid "4c5cf0bc-bc53-4c25-b22e-bcfbf0303f27")
-	)
-	(wire
-		(pts
-			(xy 175.26 111.76) (xy 201.93 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71ec3726-6630-4556-96a0-0f9028f34384")
 	)
 	(wire
 		(pts
@@ -1853,16 +1847,6 @@
 			(justify left bottom)
 		)
 		(uuid "47520466-d85f-4756-a3aa-36eb056a06e3")
-	)
-	(label "MISO1"
-		(at 175.26 111.76 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9023fd17-9a54-416e-b44b-c551b53d7977")
 	)
 	(label "SCK1"
 		(at 175.26 106.68 0)
@@ -2662,16 +2646,6 @@
 		(pin "CS1" input
 			(at 175.26 114.3 0)
 			(uuid "08faf184-3c37-4c18-8585-31ce32aab6ce")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "MISO1" output
-			(at 175.26 111.76 0)
-			(uuid "3ab5f66d-94ee-4438-bd9f-809d127e5239")
 			(effects
 				(font
 					(size 1.27 1.27)
